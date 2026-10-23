@@ -47,4 +47,6 @@ Cloudflare Workers Builds deploys the `main` branch automatically using the exis
 
 The tests cover network reachability, launch/pause/recall, resource accounting and launch reserves, upgrade caps, save round trips and invalid imports, strategy differences, 25 seeded campaign scenarios, and a reachable victory condition.
 
+GitHub Actions independently validates each push and checks the live custom domain after Cloudflare deployment. The production check verifies exact SHA-256 matches for all game assets, JavaScript module MIME types, and the custom 404 response. It retries while the new build propagates and requires no deployment credentials.
+
 Saves are browser-local and origin-specific. To bring an existing campaign from the original preview site, export it there and import the JSON through Settings on swarm.coach.
