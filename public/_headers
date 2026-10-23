@@ -1,0 +1,12 @@
+/*
+  X-Content-Type-Options: nosniff
+
+/*.mjs
+  Content-Type: text/javascript; charset=utf-8
+  Cache-Control: no-cache
+
+/*.html
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache
