@@ -50,3 +50,9 @@ The tests cover network reachability, launch/pause/recall, resource accounting a
 GitHub Actions independently validates each push and checks the live custom domain after Cloudflare deployment. The production check verifies exact SHA-256 matches for all game assets, JavaScript module MIME types, and the custom 404 response. It retries while the new build propagates and requires no deployment credentials.
 
 Saves are browser-local and origin-specific. To bring an existing campaign from the original preview site, export it there and import the JSON through Settings on swarm.coach.
+
+## License
+
+Copyright 2026 Dean Pierce.
+
+The original code and documentation authored for this project are licensed under the [Apache License, Version 2.0](LICENSE). Third-party dependencies, quoted source material, data, fonts, media, and other third-party assets retain their respective licenses and rights; this grant does not relicense them.
